@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="field_color">#b5cee0</color>
+    <color name="border_color">#7f7f7f</color>
+    <color name="button_color">#458b00</color>
+    <color name="capstone_color">#00ced1</color>
+</resources>
