@@ -20,11 +20,12 @@
           android:layout_height="wrap_content"
           android:text="@string/title"
           android:layout_marginBottom="@dimen/menu_space"
-          android:textSize="32sp" />
+          android:layout_gravity="center"
+          android:textSize="20sp" />
 
         <Button
             android:id="@+id/spotify_button"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/menu_button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/menu_button_margin"
@@ -34,7 +35,7 @@
 
         <Button
             android:id="@+id/scores_button"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/menu_button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/menu_button_margin"
@@ -44,7 +45,7 @@
 
         <Button
             android:id="@+id/library_button"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/menu_button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/menu_button_margin"
@@ -54,7 +55,7 @@
 
         <Button
             android:id="@+id/build_it_bigger_button"
-            android:layout_width="match_parent"
+            android:layout_width="219dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_margin="@dimen/menu_button_margin"
@@ -64,7 +65,7 @@
 
         <Button
             android:id="@+id/xyz_reader_button"
-            android:layout_width="match_parent"
+            android:layout_width="219dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/menu_button_margin"
@@ -74,7 +75,7 @@
 
         <Button
             android:id="@+id/capstone_button"
-            android:layout_width="match_parent"
+            android:layout_width="219dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/menu_button_margin"
@@ -83,4 +84,5 @@
             android:text="@string/capstone_title"/>
 
     </LinearLayout>
+
 </FrameLayout>
